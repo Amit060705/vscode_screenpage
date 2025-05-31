@@ -1,10 +1,12 @@
 * {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     overflow: hidden;
+    padding: 0;
+    margin: 0;
 }
 
 body {
-    background-color: #0e0e0e;
+    background-color: black;
 }
 
 a {
@@ -15,7 +17,11 @@ a {
     color: #9FB1D1;
     cursor: pointer;
     padding-left: 25px;
-    font-weight: 600;
+    font-weight: 600px;
+    text-decoration: none;
+}
+.topLink:hover{
+    color: white;
 }
 
 .search {
@@ -32,7 +38,8 @@ a {
     font-size: 15;
     border-radius: 4px;
     padding: 5px 25px 5px 30px;
-    color: white;
+    color: grey;
+    margin: 1px;
 }
 
 .search_icon {
@@ -46,13 +53,8 @@ a {
     padding-right: 15px;
 }
 
-/* .input_group{
-justify-content: space-between;
-
-} */
 
 .search button {
-    /* padding-left: 20px; */
     padding: 6px 11px;
     color: rgb(255, 255, 255);
     background-color: #0078d4;
@@ -61,9 +63,13 @@ justify-content: space-between;
     font-size: 15px;
     font-weight: 500;
 }
-
 .text center {
     color: #9FB1D1;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+.text a{
+ text-decoration: none;
 }
 
 .logo img {
@@ -72,12 +78,14 @@ justify-content: space-between;
 }
 
 .textbox {
+    padding-top: 50px;
     width: 100vw;
     height: fit-content;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 5rem;
+    background-color: #0e0e0e;
 }
 
 .box {
@@ -109,5 +117,45 @@ justify-content: space-between;
 
 .copilot_image {
     width: 100%;
-    height: 100%;
+    height: 90%;
+}
+.nav{
+    background-color: black;
+}
+.container {
+    background-color: black;
+    width: 1200px;
+    margin: 0 auto;
+    color: white;
+}
+.container {
+    padding-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 3rem;
+    padding-bottom: 25px;
+}
+
+.languagePanel {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-inline: 2.5rem;
+}
+
+.languagePanel img {
+    height: 40px;
+    width: auto;
+}
+
+
+.flex {
+    display: flex;
+    align-items: center;
+    padding: 5 5 5 5;
+}
+.codebox p{
+    line-height: 25px;
+}
+.codebox{
+    padding-top: 20px;
 }

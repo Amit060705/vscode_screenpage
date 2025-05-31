@@ -2,75 +2,49 @@
 <title>
     Visual Studio Code - Code Editor
 </title>
-<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="index2.css">
 
 </html>
 
 <body>
-    <div
-        style="color: white; padding-left: 325px; padding-right: 300px; padding-top: 10px; display: flex; justify-content: space-between;">
-        <div style="display: flex;">
-            <div class="logo" style="display: flex;">
-                <img src="vs.png" alt="vscode" width="24px" style="padding-right: 10px;">
-                <span style="font-size: 18; color: #c3d0e5; font-weight: 500;">Visual Studio Code</span>
+    <div class="nav">
+        <div
+            style="color: white; padding-left: 325px; padding-right: 300px; padding-top: 15px;display: flex; justify-content: space-between;">
+            <div style="display: flex;">
+                <div class="logo" style="display: flex;">
+                    <img src="https://code.visualstudio.com/favicon.ico" alt="vscode" width="24px" style="padding-right: 10px;">
+                    <span style="font-size: 18; color: #c3d0e5; font-weight: 500;">Visual Studio Code</span>
+                </div>
+                <div>
+                    <a class="topLink" href="#">Docs</a>
+                    <a class="topLink" href="#">Updates</a>
+                    <a class="topLink" href="#">Blog</a>
+                    <a class="topLink" href="#">API</a>
+                    <a class="topLink" href="#">Extensions</a>
+                    <a class="topLink" href="#">FAQs</a>
+                    <a class="topLink" href="#">Learn</a>
+                </div>
             </div>
-            <div>
-                <span class="topLink">Docs</span>
-                <span class="topLink">Updates</span>
-                <span class="topLink">Blog</span>
-                <span class="topLink">API</span>
-                <span class="topLink">Extensions</span>
-                <span class="topLink">FAQs</span>
-                <span class="topLink">Learn</span>
+            <div class="search">
+                <div class="search_icon"><img src="https://code.visualstudio.com/assets/icons/search-dark.svg"
+                        alt="search">
+                </div>
+                <div class="input_group">
+                    <input class="search_text" text placeholder="Search Docs">
+                    <button>Download</button>
+                </div>
+
             </div>
         </div>
-        <div class="search">
-            <div class="search_icon"><img src="https://code.visualstudio.com/assets/icons/search-dark.svg" alt="search">
-            </div>
-            <div class="input_group">
-                <input class="search_text" text placeholder="Search Docs">
-                <button>Download</button>
-            </div>
 
-        </div>
-    </div>
-    <br />
-
-    <div>
-        <span class="text">
-            <center><a href="">Version 1.82</a> is now available! Read about the new features and fixes from July.
-            </center>
-        </span>
-    </div>
-
-    <br />
-    <br>
-    <br><br><br><br><br>
-    <!-- <div class="textbox">
-        <div class="leftbox">
-            <h1 style="color: white;">
-                Code with GitHub Copilot
-            </h1>
-            <div>
-                Write code faster and smarter with GitHub Copilot, your AI pair programmer.
-            </div>
-            <div>
-                <a href="">
-                    Try GitHub Copilot free for 30 days
-                </a>
-            </div>
-            <br>
-            <a href="">Completions</a> present suggestions automatically to help you code more efficiently.
-            <br><br>
-            <a href="">Copilot</a> Chat understands the context of your code, workspace, extensions, settings, and more.
-<br><br>
-            Inline Chat enables you to iteratively generate edits and get answers to quick questions, directly on your
-            code.
-        </div>
         <div>
-            <img src="https://code.visualstudio.com/assets/home/swimlane-copilot.png" width="800px" />
+            <span class="text">
+                <center><a href="">Version 1.82</a> is now available! Read about the new features and fixes from July.
+                </center>
+            </span>
         </div>
-    </div> -->
+    </div>
+
     <div class="textbox">
         <div class="left box">
             <div class="para heading">Code with GitHub Copilot</div>
@@ -89,18 +63,62 @@
             <img class="copilot_image" src="https://code.visualstudio.com/assets/home/swimlane-copilot.png" />
         </div>
     </div>
+    <div class="container">
+        <div class="codebox">
+            <h2>Code in any language</h2>
+            <br>
+            <p>VS Code supports almost every major programming language. Several ship in the box, like JavaScript,
+                TypeScript, CSS, and HTML, but extensions for others can be found in the VS Code Marketplace.</p>
+        </div>
+        <div class="languagePanel">
+            <div class="flex">
+                <img src="https://code.visualstudio.com/assets/home/language-js.png" alt="Javascript">
+                <code class="verticalCenter">JavaScript</code>
+            </div>
+            <div class="flex">
+                <img src="https://code.visualstudio.com/assets/home/language-ts.png" alt="TypeScript">
+                <code class="verticalCenter">TypeScript</code>
+            </div>
+            <div class="flex">
+                <img src="https://code.visualstudio.com/assets/home/language-python.png" alt="Python">
+                <code class="verticalCenter">Python</code>
+            </div>
+            <div class="flex">
+                <img src="https://code.visualstudio.com/assets/home/language-cs.png" alt="C#">
+                <code class="verticalCenter">C#</code>
+            </div>
+            <div class="flex">
+                <img src="https://code.visualstudio.com/assets/home/language-cpp.png" alt="C++">
+                <code class="verticalCenter">C++</code>
+            </div>
+            <div class="flex">
+                <img src="https://code.visualstudio.com/assets/home/language-html.png" alt="HTML">
+                <code class="verticalCenter">HTML</code>
+            </div>
+            <div class="flex">
+                <img src="https://code.visualstudio.com/assets/home/language-java.png" alt="Java">
+                <code class="verticalCenter">Java</code>
+            </div>
+            <div class="flex"> 
+                <img src="https://code.visualstudio.com/assets/home/language-json.png" alt="JSON">
+                <code class="verticalCenter">JSON</code>
+            </div>
+            <div class="flex">
+                <img src="https://code.visualstudio.com/assets/home/language-php.png" alt="PHP">
+                <code class="verticalCenter">PHP</code>
+            </div>
+            <div class="flex">
+                <img src="https://code.visualstudio.com/assets/home/language-markdown.png" alt="Markdown">
+                <code class="verticalCenter">Markdown</code>
+            </div>
+            <div class="flex">
+                <img src="https://code.visualstudio.com/assets/home/language-powershell.png" alt="Powershell">
+                <code class="verticalCenter">Powershell</code>
+            </div>
+            <div class="flex">
+                <img src="https://code.visualstudio.com/assets/home/language-yaml.png" alt="YAML">
+                <code class="verticalCenter">YAML</code>
+            </div>
+        </div>
+    </div>
 </body>
-
-
-
-
-
-
-
-
-
-
-
-<!-- <div class="box"></div>
-<div id="box"></div>
-<span class="text"></span> -->
